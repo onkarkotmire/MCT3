@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.second_page {
+    background-color: #091f43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 3%; */
+    display: none;
+    height: 100vh;
+}
+
+.box_container {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 20%;
+    height: 100%;
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15%;
+}
+
+#weather_image {
+    width: 200px;
+    height: 200px;
+}
+
+#season {
+    font-size: 33px;
+    margin-bottom: 32px;
+    color: rgb(180, 177, 177);
+}
+
+#city_name {
+    font-size: 38px;
+    color: white;
+    margin-top: 2%;
+}
+
+.unit {
+    font-size: 26px;
+}
+#degree{
+    font-size: 10px;
+}
+
+.h3 {
+    font-family: system-ui, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 27px;
+    color: rgb(58, 58, 58);
+}
+#wind_speed, #temperature, #humidity, #pressure {
+    font-family: system-ui, Roboto, Arial, sans-serif;
+    font-size: 55px;
+    line-height: 22px;
+}
+
+#icon{
+    font-size: 50px;
+    color: gray;
+}

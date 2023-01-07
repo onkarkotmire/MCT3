@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.second_page{
+    display: none;
+}
+.first_page{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://miro.medium.com/max/1400/1*GsImz-edoeuqCMfKxDus0w.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_container{
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12%;
+}
+#app_heading{
+    font-size: 50px;
+    font-family: system-ui, Roboto, Arial, sans-serif;
+    line-height: 27px;
+}
+#app_subheading{
+    font-size: 34px;
+    color: #00008B;
+}
+#search_input{
+    width: 50%;
+    height: 10%;
+    outline: none;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+#search_button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #386bd8;
+    border-radius: 7px;
+}
+#search_button:hover{
+    background-color: #00008B;
+}

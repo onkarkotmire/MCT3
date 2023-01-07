@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <div class="first_page">
+    <div class="main_container">
+        <h1 id="app_heading">Weather Application</h1>
+        <h2 id="app_subheading">Know the weather without visiting the city..!</h2>
+        <input type="text" id="search_input" placeholder="Search Your Location">
+        <button id="search_button">View</button>
+    </div>
+    </div>
+    
+
+    <div class="second_page">
+        <h1 style="margin-bottom: 16px;" id="city_name">CITY</h1>
+        <img src="http://openweathermap.org/img/wn/04n@2x.png" id="weather_image" />
+        <h4 id="season">Season</h4>
+        <div class="box_container">
+           <div class="box">
+               <h2 class="h3">Temperature</h2>
+               <i class="fa-solid fa-temperature-high" id="icon"></i>
+               <h1 id="temperature">0<span class="unit" id="degree">&deg; <span id="celcius">C</span></span></h1>
+           </div>
+           <div class="box">
+               <h3 class="h3">Wind</h3>
+               <i class="fa-brands fa-cloudversify" id="icon"></i>
+               <h1 id="wind_speed">0<span class="unit">km</span></h1>
+           </div>
+           <div class="box">
+               <h3 class="h3">Humidity</h3>
+               <i class="fa-solid fa-droplet" id="icon"></i>
+               <h1 id="humidity">0<span class="unit">%</span></h1>
+           </div>
+           <div class="box">
+               <h3 class="h3">Pressure</h3>
+               <i class="fa-solid fa-gauge-simple-high" id="icon"></i>
+               <h1 id="pressure">0<span class="unit">hpa</span></h1>
+           </div>
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
